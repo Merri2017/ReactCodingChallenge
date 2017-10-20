@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+var express = require("express"),
+	app = express();
+
+app.get("/", function (req, res) {
+	res.json("Hello World!");
+});
+
+app.listen(3000, function(){
+	console.log("Listening on port 3000!");
+});
+		</script>
+
+	</body>
+</html>
